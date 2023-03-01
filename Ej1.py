@@ -17,6 +17,7 @@ class Ej1(tk.Tk):
     """    
     def __init__(self):
         """Datos de la GUI y boton fecha de hoy
+        
         """        
         super().__init__()
         self.title("Ejercicio 1")
