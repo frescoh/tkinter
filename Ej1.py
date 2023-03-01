@@ -1,10 +1,4 @@
-""" 
-Ejercicio 1
-Escribir una GUI con un botón con la leyenda “Mostrar fecha” y que al presionarlo
-muestre por consola la fecha del día.
-
-"""
-
+# EJERCICIO 1 TRABAJO PRACTICO 1 DE TKINTER
 import tkinter as tk
 from tkinter import ttk
 import datetime as dt
@@ -17,7 +11,7 @@ class Ej1(tk.Tk):
     """    
     def __init__(self):
         """Datos de la GUI y boton fecha de hoy
-        
+
         """        
         super().__init__()
         self.title("Ejercicio 1")
