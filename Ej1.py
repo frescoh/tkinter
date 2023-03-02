@@ -15,7 +15,7 @@ class Ej1(tk.Tk):
         """        
         super().__init__()
         self.title("Ejercicio 1")
-        self.geometry("300x300")
+        self.geometry("300x300") # indica el tamaño de la ventana 
         self.boton = ttk.Button(self, text="Mostrar fecha", command=self.mostrar_fecha)
         self.boton.pack()
         self.mainloop()
