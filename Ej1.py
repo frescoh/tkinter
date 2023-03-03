@@ -1,4 +1,9 @@
 # EJERCICIO 1 TRABAJO PRACTICO 1 DE TKINTER
+# Guillermo Villagra
+# Ejercicio 1
+# Escribir una GUI con un botón con la leyenda “Mostrar fecha” y que al presionarlo
+# muestre por consola la fecha del día.
+
 import tkinter as tk
 from tkinter import ttk
 import datetime as dt
