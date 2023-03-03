@@ -11,7 +11,6 @@ class Ej1(tk.Tk):
     """    
     def __init__(self):
         """Datos de la GUI y boton fecha de hoy
-
         """        
         super().__init__()
         self.title("Ejercicio 1")
@@ -23,8 +22,9 @@ class Ej1(tk.Tk):
     def mostrar_fecha(self):
         """Muestra la fecha actual mediante el import datetime al momento de usar el boton fecha de hoy de la GUI
         """        
-        print("Fecha del día", dt.datetime.now())
+        ahora= dt.datetime.now()
+        ahora_str= ahora.strftime("%d/%m/%Y")
+        # print(f"Fecha del día. Dia: {ahora.day}, mes: {ahora.month} año: {ahora.year}")
+        print(f"Fecha del día. Dia: {ahora_str}")
         
-
-
 root = Ej1()

@@ -28,6 +28,7 @@ class App(ttk.Frame):
         print(f"Guardados los datos: {self.nombre.get()}, {self.apellido.get()}, {self.email.get()} ")
         self.parent.destroy()  # terminamos el programa al destruir la ventana ppal
 
+    
 
 root = tk.Tk()
 App(root).grid()
