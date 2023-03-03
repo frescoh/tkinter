@@ -1,9 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 
-
-
-
 class EJ3(ttk.Frame):
 
     def __init__(self, root):
