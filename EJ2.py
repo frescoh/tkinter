@@ -28,7 +28,7 @@ class EJ2(ttk.Frame):
         """        
         ventana = tk.Toplevel(self.root)
         ventana.title("Advertencia")
-        # esto devuelve true o false si se presiona el boton ok dado caso una vez echo click en el ok la misma cierra la ventana de advertencia creada anteriromente
+        # esto devuelve true o false si se presiona el boton ok dado caso una vez echo click en el ok la misma cierra la ventana de advertencia creada anteriormente
         if messagebox.showwarning("Advertencia", "Diste click en el boton Advertencia"):
             ventana.destroy()
     

@@ -2,9 +2,6 @@ from math import sqrt
 import tkinter as tk
 from tkinter import ttk, messagebox
 
-
-
-
 class EJ3(ttk.Frame):
 
     def __init__(self, root):
@@ -26,7 +23,7 @@ class EJ3(ttk.Frame):
 
     def raiz(self):
         self.texto = self.text.get()
-        self.raiz = float(self.texto)**(1/2) # transofrma el texto a float y calcula la raiz cuadrada
+        self.raiz = float(self.texto)**(1/2) # transforma el texto a float y calcula la raiz cuadrada
         messagebox.showinfo("Mensaje", "La raiz cuadrada de " + str(self.texto) + " es: " + str(self.raiz))
 
     
