@@ -11,14 +11,14 @@ class EJ2(ttk.Frame):
     """
     def __init__(self, root):
 
-        """parametros de lanza de la ventana y el botn
+        """parametros de lanza de la ventana y el boton
         """        
         super().__init__(root,)
         self.root = root
         root.title("EJ2")
         root.geometry("300x300")
 
-        #botnes de advertencia e info
+        #botones de advertencia e info
         root.btn_info = ttk.Button(root, text="Info", command=self.info).grid()
         root.btn_info = ttk.Button(root, text="Advertencia", command=self.advertencia).grid()
 
