@@ -18,8 +18,6 @@ class EJ3(ttk.Frame):
 
         root.g_btn = ttk.Button(self, text="Guardar", command=self.guardar).grid(row=2, column=1)
 
-
-
     def guardar(self):
         self.texto = self.text.get()
         messagebox.showinfo("Mensaje", "El texto ingresado es: " + self.texto)
@@ -30,5 +28,9 @@ d.mainloop()
 
 
 
-
+print("Esto es un pull request en el repositorio de rafa")
+print("Esto es un pull request en el repositorio de rafa")
+print("Esto es un pull request en el repositorio de rafa")
+print("Esto es un pull request en el repositorio de rafa")
+print("Esto es un pull request en el repositorio de rafa")
 print("Esto es un pull request en el repositorio de rafa")
