@@ -27,3 +27,7 @@ class EJ3(ttk.Frame):
 d = EJ3(tk.Tk())
 d.grid()  # <--- SIN ESTO NO MUESTRA NADA EN LA VENTANA
 d.mainloop()  
+
+
+
+print("Esto es un pull request en el repositorio de rafa")
