@@ -4,12 +4,13 @@
 # Escribir una GUI con una entrada de texto y un botón con la leyenda “Mostrar”. Al hacer
 # click en el botón se debe mostrar el contenido de la entrada de texto por consola.
 import tkinter as tk
-from tkinter import ttk
+from tkinter import ttk,messagebox
 
 class Entrada(ttk.Frame):
     """ Clase que permite la entrada de texto y guardarlo
     """
     def __init__(self, parent):
+        """Construct"""
         super().__init__(parent, padding=(10))
         self.parent= parent
         parent.title("Formulario Simple")
@@ -23,8 +24,11 @@ class Entrada(ttk.Frame):
         parent.bind('<Return>', lambda e: btn_guardar.invoke())
     
     def guardar(self):
+        """ Función que guarda los datos de la entrada de texto
+        """
         print(f"Guardado los datos: {self.texto.get()}")
         self.parent.destroy()
+        
 
 root= tk.Tk()
 Entrada(root).grid()
